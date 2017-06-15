@@ -1,0 +1,26 @@
+{
+  "name": "webpack2-umd-build",
+  "description": "lightweight boilerplate for building umd packages with webpack2",
+  "scripts": {
+    "buildES5%": "webpack --progress --profile --colors --config webpack/configs/staging-es5.js",
+    "buildES6": "webpack --progress --profile --colors --config webpack/configs/staging-es6.js",
+    "production": "webpack --progress --profile --colors --config webpack/configs/production.js"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.23.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-env": "^1.4.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.11.1",
+    "html-webpack-plugin": "^2.22.0",
+    "style-loader": "^0.16.1",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.5.0",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
