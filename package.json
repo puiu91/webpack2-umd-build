@@ -2,7 +2,7 @@
   "name": "webpack2-umd-build",
   "description": "lightweight boilerplate for building umd packages with webpack2",
   "scripts": {
-    "buildES5%": "webpack --progress --profile --colors --config webpack/configs/staging-es5.js",
+    "buildES5": "webpack --progress --profile --colors --config webpack/configs/staging-es5.js",
     "buildES6": "webpack --progress --profile --colors --config webpack/configs/staging-es6.js",
     "production": "webpack --progress --profile --colors --config webpack/configs/production.js"
   },
